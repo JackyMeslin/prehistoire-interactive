@@ -2493,10 +2493,216 @@ a:hover .subtitle {
 
 /* Wrapper */
 
-.wrapper-hyper > .inner {
+.wrapper-hyper > .inner2 {
   opacity: 1 !important;
   -moz-transform: none !important;
   -webkit-transform: none !important;
   -ms-transform: none !important;
   transform: none !important;
 }
+
+/* Intro */
+
+#intro {
+  background-attachment: fixed;
+  background-image: url("./ASNAPIO-levage-menhir\ \(2\).jpg");
+  /* -webkit-filter: blur(0.9px); */
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  
+}
+
+
+#intro p {
+  background-color: white;
+  font-size: 1.25em;
+  }
+
+    @media screen and (max-width: 980px) {
+
+      #intro p br {
+        display: none;
+      }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      #intro p {
+        font-size: 1em;
+      }
+
+    }
+
+  @media screen and (max-width: 1280px) {
+
+    #intro {
+      background-attachment: scroll;
+    }
+
+  }
+
+/* Wrapper2 */
+
+.wrapper2 {
+  position: relative;
+}
+
+  .wrapper2 > .inner2 {
+    padding: 5em 5em 3em 5em ;
+    max-width: 100%;
+    width: 75em;
+  }
+
+    @media screen and (max-width: 1680px) {
+
+      .wrapper2 > .inner2 {
+        padding: 4em 4em 2em 4em ;
+      }
+
+    }
+
+    @media screen and (max-width: 1280px) {
+
+      .wrapper2 > .inner2 {
+        width: 100%;
+      }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      .wrapper2 > .inner2 {
+        padding: 3em 2em 1em 2em ;
+      }
+
+    }
+
+  .wrapper2.alt {
+    background-color: #261c3e;
+  }
+
+  .wrapper2.style1 {
+    background-color: #5e42a6;
+  }
+
+  .wrapper2.style1-alt {
+    background-color: #493382;
+  }
+
+  .wrapper2.style2 {
+    background-color: #5052b5;
+  }
+
+  .wrapper2.style2-alt {
+    background-color: #3e4094;
+  }
+
+  .wrapper2.style3 {
+    background-color: #b74e91;
+  }
+
+  .wrapper2.style3-alt {
+    background-color: #953d75;
+  }
+
+  .wrapper2.fullscreen {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    min-height: 50vh;
+  }
+
+    body.is-ie .wrapper2.fullscreen {
+      height: 50vh;
+    }
+
+    @media screen and (max-width: 1280px) {
+
+      .wrapper2.fullscreen {
+        min-height: calc(100vh - 2.5em);
+      }
+
+        body.is-ie .wrapper2.fullscreen {
+          height: calc(100vh - 2.5em);
+        }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      .wrapper2.fullscreen {
+        padding: 2em 0;
+        min-height: 0;
+      }
+
+        body.is-ie .wrapper2.fullscreen {
+          height: auto;
+        }
+
+    }
+
+  .wrapper2.fade-up > .inner2 {
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: 1.0;
+  }
+
+  .wrapper2.fade-up.inactive > .inner2,
+  body.is-preload .wrapper2.fade-up > .inner2 {
+    opacity: 0;
+    -moz-transform: translateY(1em);
+    -webkit-transform: translateY(1em);
+    -ms-transform: translateY(1em);
+    transform: translateY(1em);
+  }
+
+  .wrapper2.fade-down > .inner2 {
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: 1.0;
+  }
+
+  .wrapper2.fade-down.inactive > .inner2,
+  body.is-preload .wrapper2.fade-down > .inner2 {
+    opacity: 0;
+    -moz-transform: translateY(-1em);
+    -webkit-transform: translateY(-1em);
+    -ms-transform: translateY(-1em);
+    transform: translateY(-1em);
+  }
+
+  .wrapper2.fade > .inner2 {
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    opacity: 1.0;
+  }
+
+  .wrapper2.fade.inactive > .inner2,
+  body.is-preload .wrapper2.fade > .inner2 {
+    opacity: 0;
+  }
