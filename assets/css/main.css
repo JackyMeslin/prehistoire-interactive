@@ -3050,6 +3050,9 @@ a:hover .subtitle {
     * { box-sizing: border-box; }
 
     body { font-family: sans-serif; }
+    body.clicked { background: #ED0; }
+
+       
     
     .carousel {
       /* background: black; */
@@ -3058,15 +3061,18 @@ a:hover .subtitle {
     .carousel-cell {
       width: 70%;
       height: 200px;
+      margin-right: 10px;
       /* flex-box, center image in cell */
       display: -webkit-box;
       display: -webkit-flex;
       display:         flex;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
-              justify-content: center;
+      justify-content: center;
       -webkit-align-items: center;
-              align-items: center;
+      align-items: center;
+      border-radius: 5px;
+      counter-increment: carousel-cell;
     }
     
     .carousel-cell img {
@@ -3129,6 +3135,33 @@ a:hover .subtitle {
     .flickity-prev-next-button:disabled {
       display: none;
     }
-    input[type="button"] {
-      box-shadow: none;
+    
+    .carousel.is-fullscreen .carousel-cell {
+      height: 100%;
+      margin-top: 50px;
+    }
+    
+    /* cell number */
+    
+    
+    .corner-button { font-size: 32px; }
+
+    
+
+
+
+
+    
+    .carousel.is-fullscreen .carousel-cell {
+      height: 100%;
+    }
+    
+    /* cell number */
+    .carousel-cell:before {
+      display: block;
+      text-align: center;
+      content: counter(carousel-cell);
+      line-height: 200px;
+      font-size: 80px;
+      color: white;
     }
