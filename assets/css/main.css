@@ -1237,8 +1237,11 @@ input[type="radio"] + label:before {
     border-radius: 0.375em;
     display: block; }
   .image.left, .image.right {
-    max-width: 40%; }
-    .image.left img, .image.right img {
+    max-width: 40%; 
+  }
+
+  
+  .image.left img, .image.right img {
       width: 100%; }
   .image.left {
     float: left;
@@ -2673,7 +2676,7 @@ a:hover .subtitle {
   @media screen and (max-width: 1280px) {
 
     #intro {
-      background-attachment: scroll;
+      /* background-attachment: scroll; */
     }
 
   }
@@ -2765,11 +2768,11 @@ a:hover .subtitle {
     @media screen and (max-width: 1280px) {
 
       .wrapper2.fullscreen {
-        min-height: calc(100vh - 2.5em);
+        /* min-height: calc(100vh - 2.5em); */
       }
 
         body.is-ie .wrapper2.fullscreen {
-          height: calc(100vh - 2.5em);
+          /* height: calc(100vh - 2.5em); */
         }
 
     }
