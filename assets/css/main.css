@@ -2644,7 +2644,7 @@ a:hover .subtitle {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./ASNAPIO-levage-menhir\ \(2\).jpg");
   background-position: top right;
   background-repeat: no-repeat;
-  background-size: 100% ;
+  background-size: cover ;
   
 }
 
