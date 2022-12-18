@@ -10,6 +10,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+            <!-- flickity  -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="flickity/flickity.css" media="screen">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
+    <!-- JavaScript -->
+    <script src="flickity/flickity.pkgd.min.js"></script>
+    <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
+
 	</head>
 	<body class="is-preload">
 
@@ -39,13 +47,11 @@
 										<p>Vivre un chantier de construction collectif</p>
 									</div>
 								</section>
-								
-
 
 							<!-- Content -->
 								<section class="section-pagination">
 									<h2 id="content">Déplacez et lever un menhir de quelques tonnes avec des techniques et des matériaux disponibles au Néolithique !</h2>
-									     <dl>
+									    <dl>
                                             <dt>Proposition :</dt>
                                             <dd>
                                                 <p>Permettre au public, de participer à une expérience insolite consacrée au déplacement et au levage d'un menhir de quelques tonnes avec des techniques et des matériaux disponibles au Néolithique.</p>
@@ -57,13 +63,34 @@
                                         <li>Travail du bois d'œuvre (façonnage de leviers, rouleaux, berceau de transport)</li>
                                         <li>Présentation d'échantillons de cordes réalisés avec différents matériaux périssables (herbe, roseau, liber)</li>
                                         <p>La priorité est, bien évidemment, donnée à la sécurité des participants.</p>
+                                </section>
 
-                                <!-- carousel-photos  -->
+                    
+                                    <!-- carousel-photos  -->
+                                    
+                                    
+                                    <!-- Flickity HTML init -->
+                                    <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                                        <div class="carousel-cell">
+                                        <img src="images/ASNAPIO-levage-menhir-1.jpg" alt="">
+                                        </div>
+                                        <div class="carousel-cell">
+                                        <img src="images/BELGIQUE-abattage-3.jpg" alt="">
+                                        </div>
+                                        <div class="carousel-cell">
+                                        <img src="images/CRAZANNES-levage-menhir-3.jpg" alt="">
+                                        </div>
+                                        <div class="carousel-cell">
+                                        <img src="images/EXOUDUN-levage-menhir-2.jpg" alt="">
+                                        </div>
+                                        <div class="carousel-cell">
+                                        <img src="images/GRAND-PRESSIGNY-travail-bois-2.jpg" alt="">
+                                        </div>
+                                    </div>
 
-
-
-                                <!-- personnes ressources  -->
-                                    <dl>
+                                        <!-- personnes ressources  -->
+                                        <section class="section-pagination" style="margin-top: 4em;">
+                                        <dl>
                                         <dt>Personnes ressources sollicitées pour la construction de cette animation :</dt>
                                     </dl>    
                                     <ul>
@@ -167,6 +194,8 @@
 						</div>
 					</div>
 
+
+                     
 			</div>
 
 		<!-- Scripts -->
