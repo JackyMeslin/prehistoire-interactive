@@ -2770,6 +2770,51 @@ a:hover .subtitle {
 
   }
 
+
+/* Habitat */
+
+#habitat {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Expérimentation-habitat-2.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  
+}
+
+#habitat h1 {
+  color: white;
+  }
+
+#habitat p {
+  font-size: 1.25em;
+  color: white;
+  }
+
+    @media screen and (max-width: 980px) {
+
+      #habitat p br {
+        display: none;
+      }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      #habitat p {
+        font-size: 1em;
+      }
+
+    }
+
+  @media screen and (max-width: 1280px) {
+
+    #habitat {
+      /* background-attachment: scroll; */
+    }
+
+  }
+
 /* Wrapper2 */
 
 .wrapper2 {
@@ -3087,7 +3132,7 @@ a:hover .subtitle {
 				padding: 3em 2em 1em 2em ;
 			}
 
-      /* #intro {
+      /* #habitat {
         background-attachment: fixed;
         --bg-image-jpg : linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./ASNAPIO-levage-menhir\ \(2\).jpg");
         background-position: center center;
