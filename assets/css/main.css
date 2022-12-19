@@ -3087,14 +3087,14 @@ a:hover .subtitle {
 				padding: 3em 2em 1em 2em ;
 			}
 
-      #intro {
+      /* #intro {
         background-attachment: fixed;
         --bg-image-jpg : linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./ASNAPIO-levage-menhir\ \(2\).jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: 100vw auto ;
         
-      }
+      } */
 
 		}
 
