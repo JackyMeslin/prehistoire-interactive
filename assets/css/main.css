@@ -3384,7 +3384,7 @@ a:hover .subtitle {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #34b7a7;
+  border: 6px solid #EC9020;
   border-top-color: #dcf5f2;
   border-radius: 50%;
   width: 60px;
@@ -3423,7 +3423,7 @@ a:hover .subtitle {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #34b7a7;
+  background: #EC9020;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -3437,7 +3437,7 @@ a:hover .subtitle {
 }
 
 .back-to-top:hover {
-  background: #49cbbb;
+  background: #e1aa68;
   color: #fff;
 }
 
