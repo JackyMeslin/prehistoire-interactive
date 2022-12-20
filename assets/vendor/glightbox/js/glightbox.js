@@ -1944,7 +1944,7 @@
         width: '',
         height: '',
         content: false,
-        zoomable: true,
+        zoomable: false,
         draggable: true
       };
 
