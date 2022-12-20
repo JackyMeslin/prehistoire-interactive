@@ -2411,7 +2411,7 @@ body {
 	color: #666;
 }
 a {
-	text-decoration: none;
+	text-decoration: none !important;
 	color: #EC9020;
 }
 .cf:before,
@@ -2898,6 +2898,51 @@ a:hover .subtitle {
   @media screen and (max-width: 1280px) {
 
     #services {
+      /* background-attachment: scroll; */
+    }
+
+  }
+
+
+/* Réalisations */
+
+#realisations {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("MONTENEUF-Sentier-interprétation-4.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  
+}
+
+#realisations h1 {
+  color: white;
+  }
+
+#realisations p {
+  font-size: 1.25em;
+  color: white;
+  }
+
+    @media screen and (max-width: 980px) {
+
+      #realisations p br {
+        display: none;
+      }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      #realisations p {
+        font-size: 1em;
+      }
+
+    }
+
+  @media screen and (max-width: 1280px) {
+
+    #realisations {
       /* background-attachment: scroll; */
     }
 
@@ -3493,7 +3538,7 @@ a:hover .subtitle {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #34b7a7;
+  background: #EC9020;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -3570,7 +3615,7 @@ a:hover .subtitle {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #78d9cd;
+  color: #e8b474;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -3593,7 +3638,8 @@ a:hover .subtitle {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: auto;
+  height: 80vh;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -3606,11 +3652,11 @@ a:hover .subtitle {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #34b7a7;
+  border: 1px solid #EC9020;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #34b7a7;
+  background-color: #EC9020;
 }
 
 .portfolio-details .portfolio-info {
