@@ -3787,7 +3787,7 @@ a:hover .subtitle {
 				border-radius: 4px;
 				border-bottom: 0;
 				color: #ffffff;
-				text-align: center;
+				text-align: justify;
 				text-decoration: none;
 				z-index: 3;
 			}
@@ -3800,9 +3800,11 @@ a:hover .subtitle {
 					color: #ffffff !important;
 				}
 
-				.tiles article > a h2:hover {
-					display: none;
-				}
+        .tiles article > a:hover h2 {
+          display: none;
+      }
+
+				
 
         .tiles article > a h2 {
 					margin: 0;
