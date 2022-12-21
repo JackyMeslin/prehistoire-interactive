@@ -4037,3 +4037,14 @@ a:hover .subtitle {
 
 		}
 
+.logo-clients {
+  text-align: center;
+  /* height: 20em; */
+}
+
+.logo-clients img{
+  height: 11em;
+  max-width: 15em; 
+  display: flex; 
+  margin: auto;
+}
