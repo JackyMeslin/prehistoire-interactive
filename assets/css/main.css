@@ -2624,7 +2624,7 @@ a:hover .subtitle {
 }
 
 .section-pagination h3{
-  padding-top: 2em;
+  padding-top: 1em;
   vertical-align: center !important;
 }
 }
@@ -2647,9 +2647,9 @@ a:hover .subtitle {
 #intro {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./ASNAPIO-levage-menhir\ \(2\).jpg");
-  background-position: top right;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover ;
+  background-size: 100% ;
   
 }
 
@@ -2691,9 +2691,9 @@ a:hover .subtitle {
 #megalithe {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("NEODYSSEE-ARCAY-levage-menhir-3-ccpl.JPG");
-  background-position: top right;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover ;
+  background-size: 100% ;
   
 }
 
@@ -2720,6 +2720,13 @@ a:hover .subtitle {
         font-size: 1em;
       }
 
+      #pg h3 {
+        text-align: center!important;
+      }
+      #pg p {
+        text-align: center!important;
+      }
+
     }
 
   @media screen and (max-width: 1280px) {
@@ -2738,7 +2745,7 @@ a:hover .subtitle {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("CORSE-Navigation.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover ;
+  background-size: 100% ;
   
 }
 
@@ -2781,9 +2788,9 @@ a:hover .subtitle {
 #habitat {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Expérimentation-habitat-2.jpg");
-  background-position: top right;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover ;
+  background-size: 100% ;
   
 }
 
@@ -2825,9 +2832,9 @@ a:hover .subtitle {
 #bois {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("GRAND-PRESSIGNY-travail-bois-1.jpg");
-  background-position: top right;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover ;
+  background-size: 100% ;
   
 }
 
@@ -2869,9 +2876,9 @@ a:hover .subtitle {
 #services {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Services-4-malle-pedagogique.jpg");
-  background-position: top right;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover ;
+  background-size: 100% ;
   
 }
 
@@ -2914,9 +2921,9 @@ a:hover .subtitle {
 #realisations {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("MONTENEUF-Sentier-interprétation-4.jpg");
-  background-position: top right;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover ;
+  background-size: 100% ;
   
 }
 
@@ -2958,9 +2965,9 @@ a:hover .subtitle {
 #about {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("docu-france-5.jpg");
-  background-position: top right;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover ;
+  background-size: 100% ;
   
 }
 
@@ -3162,7 +3169,7 @@ a:hover .subtitle {
   }
 
   .section-pagination {
-    padding: 10% 0;
+    padding: 1% 0;
     margin: 0 10%; 
     text-align: center; 
     vertical-align: middle; 
