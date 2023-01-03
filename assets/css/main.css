@@ -2649,7 +2649,7 @@ a:hover .subtitle {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./ASNAPIO-levage-menhir\ \(2\).jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100% ;
+  background-size: cover ;
   
 }
 
@@ -2693,7 +2693,7 @@ a:hover .subtitle {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("NEODYSSEE-ARCAY-levage-menhir-3-ccpl.JPG");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100% ;
+  background-size: cover ;
   
 }
 
@@ -2742,10 +2742,10 @@ a:hover .subtitle {
 
 #navigation {
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("CORSE-Navigation.jpg");
-  background-position: center center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("GLENAC-navigation-1.jpg");
+  background-position: bottom left;
   background-repeat: no-repeat;
-  background-size: 100% ;
+  background-size: cover ;
   
 }
 
@@ -2787,8 +2787,8 @@ a:hover .subtitle {
 
 #habitat {
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Expérimentation-habitat-2.jpg");
-  background-position: center center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("CRAZANNE-maison-1.JPG");
+  background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 100% ;
   
@@ -2831,7 +2831,7 @@ a:hover .subtitle {
 
 #bois {
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("GRAND-PRESSIGNY-travail-bois-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("TRAVAIL-BOIS-hache-polie.JPG");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% ;
@@ -2965,9 +2965,9 @@ a:hover .subtitle {
 #about {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("docu-france-5.jpg");
-  background-position: center center;
+  background-position: left center;
   background-repeat: no-repeat;
-  background-size: 100% ;
+  background-size: cover ;
   
 }
 
