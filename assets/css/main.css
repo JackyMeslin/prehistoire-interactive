@@ -3359,6 +3359,7 @@ a:hover .subtitle {
       justify-content: center;
       -webkit-align-items: center;
       align-items: center;
+      text-align: center;
       border-radius: 5px;
       /* counter-increment: carousel-cell; */
     }
@@ -3376,9 +3377,28 @@ a:hover .subtitle {
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
               transition: opacity 0.3s, transform 0.3s, filter 0.3s;
     }
+
+    .carousel-cell img p {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+              text-align: center;
+    }
+
+    .carousel-cell img a {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+    }
     
     /* brighten selected image */
     .carousel-cell.is-selected img {
+      opacity: 1;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-filter: none;
+              filter: none;
+    }
+
+    .carousel-cell.is-selected a {
       opacity: 1;
       -webkit-transform: scale(1);
               transform: scale(1);
@@ -3642,6 +3662,22 @@ a:hover .subtitle {
   padding: 20px;
 }
 
+.portfolio .portfolio-wrap .portfolio-info-service {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
   color: #fff;
@@ -3662,6 +3698,10 @@ a:hover .subtitle {
   z-index: 4;
 }
 
+
+
+
+
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
   margin: 0 5px 0 0;
@@ -3670,9 +3710,12 @@ a:hover .subtitle {
   transition: 0.3s;
 }
 
+
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #e8b474;
 }
+
+
 
 .portfolio .portfolio-wrap:hover::before {
   opacity: 1;
@@ -3954,6 +3997,7 @@ a:hover .subtitle {
 
         .tiles article > a h2 {
 					margin: 0;
+          text-align: center;
 				}
 
 				.tiles article > a .content {
@@ -3974,6 +4018,7 @@ a:hover .subtitle {
 
 			.tiles article.style1 > .image:before {
 				background-color:  #EC9020;
+        opacity: 0.2;
 			}
 
 			.tiles article.style2 > .image:before {
