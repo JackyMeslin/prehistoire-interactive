@@ -2923,7 +2923,7 @@ a:hover .subtitle {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("MONTENEUF-Sentier-interprétation-4.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100% ;
+  background-size: cover ;
   
 }
 
@@ -3045,7 +3045,7 @@ a:hover .subtitle {
   }
 
   .wrapper2.style1 {
-    background-color: #5e42a6;
+    /* background-color: #5e42a6; */
   }
 
   .wrapper2.style1-alt {
@@ -3364,6 +3364,14 @@ a:hover .subtitle {
       /* counter-increment: carousel-cell; */
     }
     
+    .legend {
+      font-variant: small-caps;
+      font-size: 5vmin;
+      line-height: .7;
+      letter-spacing: 2px;
+      text-shadow: 1px -1px 0 #fff;
+    }
+
     .carousel-cell img {
       display: block;
       max-width: 100%;
@@ -3377,6 +3385,8 @@ a:hover .subtitle {
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
               transition: opacity 0.3s, transform 0.3s, filter 0.3s;
     }
+
+    
 
     .carousel-cell img p {
       -webkit-filter: blur(0px);
@@ -3718,7 +3728,7 @@ a:hover .subtitle {
 
 
 .portfolio .portfolio-wrap:hover::before {
-  opacity: 1;
+  opacity: 0.4;
 }
 
 .portfolio .portfolio-wrap:hover img {
@@ -3990,7 +4000,12 @@ a:hover .subtitle {
 				}
 
         .tiles article > a:hover h2 {
-          display: none;
+          /* display: none; */
+          text-decoration: underline;
+          -moz-transition: max-height 0.5s ease, opacity 0.5s ease;
+					-webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
+					-ms-transition: max-height 0.5s ease, opacity 0.5s ease;
+					transition: max-height 0.5s ease, opacity 0.5s ease;
       }
 
 				
@@ -4018,7 +4033,7 @@ a:hover .subtitle {
 
 			.tiles article.style1 > .image:before {
 				background-color:  #EC9020;
-        opacity: 0.2;
+        opacity: 0.5;
 			}
 
 			.tiles article.style2 > .image:before {
@@ -4049,8 +4064,8 @@ a:hover .subtitle {
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
-					opacity: 0.8;
+					/* background-color: #333333; */
+					opacity: 0;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
