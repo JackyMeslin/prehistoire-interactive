@@ -2646,7 +2646,7 @@ a:hover .subtitle {
 
 #intro {
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./ASNAPIO-levage-menhir\ \(2\).jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./ASNAPIO-levage-menhir\ \(2\).webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover ;
@@ -2690,7 +2690,7 @@ a:hover .subtitle {
 
 #megalithe {
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("NEODYSSEE-ARCAY-levage-menhir-3-ccpl.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("NEODYSSEE-ARCAY-levage-menhir-3-ccpl.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover ;
@@ -2742,7 +2742,7 @@ a:hover .subtitle {
 
 #navigation {
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("GLENAC-navigation-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("GLENAC-navigation-1.webp");
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: cover ;
@@ -2787,7 +2787,7 @@ a:hover .subtitle {
 
 #habitat {
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("CRAZANNE-maison-1.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("CRAZANNE-maison-1.webp");
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 100% ;
@@ -2831,7 +2831,7 @@ a:hover .subtitle {
 
 #bois {
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("TRAVAIL-BOIS-hache-polie.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("TRAVAIL-BOIS-hache-polie.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% ;
@@ -2875,7 +2875,7 @@ a:hover .subtitle {
 
 #services {
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Services-4-malle-pedagogique.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Services-4-malle-pedagogique.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% ;
@@ -2920,7 +2920,7 @@ a:hover .subtitle {
 
 #realisations {
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("MONTENEUF-Sentier-interprétation-4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("MONTENEUF-Sentier-interprétation-4.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover ;
@@ -2964,7 +2964,7 @@ a:hover .subtitle {
 
 #about {
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("docu-france-5.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("docu-france-5.webp");
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover ;
@@ -3323,7 +3323,7 @@ a:hover .subtitle {
 
       /* #bois {
         background-attachment: fixed;
-        --bg-image-jpg : linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./ASNAPIO-levage-menhir\ \(2\).jpg");
+        --bg-image-webp : linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./ASNAPIO-levage-menhir\ \(2\).webp");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: 100vw auto ;
