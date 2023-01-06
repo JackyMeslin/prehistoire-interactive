@@ -2373,7 +2373,7 @@ $overlay_pattern: 'https://d3k5xyayaartr5.cloudfront.net/_assets/pattern-overlay
  * I.e. '.demo-video-wrapper' is the name of this particular video
  */
 .demo-video-wrapper {
-	background-image: url(https://d3k5xyayaartr5.cloudfront.net/_assets/home-video/beach-waves-loop.jpg);
+	background-image: url(images\Navigation-1-1080x675.webp);
 }
 
 /* Video overlay and content */
