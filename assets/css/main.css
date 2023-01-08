@@ -2964,8 +2964,8 @@ a:hover .subtitle {
 
 #about {
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("docu-france-5.webp");
-  background-position: left center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("rmc_1.webp");
+  background-position: bottom bottom;
   background-repeat: no-repeat;
   background-size: cover ;
   
