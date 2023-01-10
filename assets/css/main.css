@@ -2691,7 +2691,7 @@ a:hover .subtitle {
 #megalithe {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("NEODYSSEE-ARCAY-levage-menhir-3-ccpl.webp");
-  background-position: center center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover ;
   
@@ -2715,6 +2715,15 @@ a:hover .subtitle {
     }
 
     @media screen and (max-width: 736px) {
+
+      #megalithe {
+        /* background-attachment: fixed; */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("NEODYSSEE-ARCAY-levage-menhir-3-ccpl.webp");
+        background-position: right bottom;
+        /* background-repeat: no-repeat; */
+        /* background-size: cover ; */
+        
+      }
 
       #megalithe p {
         font-size: 1em;
@@ -2963,9 +2972,9 @@ a:hover .subtitle {
 /* About */
 
 #about {
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("rmc_1.webp");
-  background-position: bottom bottom;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover ;
   
