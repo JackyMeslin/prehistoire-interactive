@@ -4173,3 +4173,9 @@ a:hover .subtitle {
 .hero-button :hover{
   background-color: #e8b474 !important;
 }
+
+.glightbox-clean .gclose {
+  /* opacity: .7; */
+  right: 10% !important;
+  top: 10% !important;
+}
