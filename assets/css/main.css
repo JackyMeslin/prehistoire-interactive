@@ -10,6 +10,12 @@ img {
   pointer-events: none;
 }
 
+@media screen and (max-width: 480px) {
+.ux {
+  display: none;
+}
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
